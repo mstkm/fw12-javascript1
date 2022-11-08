@@ -1,4 +1,4 @@
-const teks = "Jakarta";
+const teks = 'Surabaya';
 
 function mengubahKonsonan() {
     let hasil = "";

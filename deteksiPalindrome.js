@@ -1,15 +1,10 @@
-const teks = "kakak";
+const teks = "apa";
 
-// console.log(teks.length > 2);
 let hasil = "";
-
- if (teks.length > 2) {
+if (teks.length > 2) {
     for (let i = teks.length - 1; i >= 0; i-- ) {
         hasil += teks[i];
     }
-    // console.log(hasil);
-    // console.log(typeof hasil);
-
     if (hasil === teks) {
         console.log("Palindrome");
     } else {
