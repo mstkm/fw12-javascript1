@@ -6,7 +6,7 @@ let ipa = 95;
 let jumlah = mtk + bahasaIndonesia + bahasaInggris + ipa
 let rataRata = jumlah / 4;
  
-if (mtk, bahasaIndonesia, bahasaInggris, ipa === undefined) {
+if (mtk === undefined || bahasaIndonesia === undefined || bahasaInggris === undefined || ipa === undefined) {
     console.log("Semua Nilai Harus Terisi!");
 } else if (rataRata >= 90 && rataRata <= 100) {
     console.log("Rata-rata = " + rataRata);
