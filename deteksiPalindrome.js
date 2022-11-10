@@ -7,7 +7,7 @@ if (teks.length > 2) {
     for (let i = teks.length - 1; i >= 0; i-- ) { 
         hasil += teks[i];
     }
-    // Pengkondisian untuk mengecek hasil palindrome dan bukan palindrome
+    // Pengkondisian untuk mengecek hasil apakah palindrome atau bukan palindrome
     if (hasil === teks) { 
         console.log("Palindrome");
     } else {
